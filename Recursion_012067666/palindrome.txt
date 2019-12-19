@@ -1,0 +1,7 @@
+The seudocode for this one is:
+The core function for the palindrone is to compare the first character with
+the last character of a string. 
+If they are not, return false(it is not a palindome)
+If they are the same, compare the character next to it with the character next to the last character
+return true until there's only 1 character( if it is an odd string) or 0 character (if it is an even character)
+return false if it didn't see the match between 2 characters.
